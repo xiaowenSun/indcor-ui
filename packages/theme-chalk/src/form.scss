@@ -1,0 +1,167 @@
+@import "mixins/mixins";
+@import "mixins/utils";
+@import "common/var";
+
+@include b(form) {
+  @include m(label-left) {
+    & .gpzx-form-item__label {
+      text-align: left;
+    }
+  }
+  @include m(label-top) {
+    & .gpzx-form-item__label {
+      float: none;
+      display: inline-block;
+      text-align: left;
+      padding: 0 0 10px 0;
+    }
+  }
+  @include m(inline) {
+    & .gpzx-form-item {
+      display: inline-block;
+      margin-right: 10px;
+      vertical-align: top;
+    }
+    & .gpzx-form-item__label {
+      float: none;
+      display: inline-block;
+    }
+    & .gpzx-form-item__content {
+      display: inline-block;
+      vertical-align: top;
+    }
+    &.gpzx-form--label-top .gpzx-form-item__content {
+      display: block;
+    }
+  }
+}
+@include b(form-item) {
+  margin-bottom: 22px;
+  @include utils-clearfix;
+
+  & .gpzx-form-item {
+    margin-bottom: 0;
+  }
+
+  & .gpzx-input__validateIcon {
+    display: none;
+  }
+
+  @include m(medium) {
+    .gpzx-form-item__label {
+      line-height: 36px;
+    }
+    .gpzx-form-item__content {
+      line-height: 36px;
+    }
+  }
+  @include m(small) {
+    .gpzx-form-item__label {
+      line-height: 32px;
+    }
+    .gpzx-form-item__content {
+      line-height: 32px;
+    }
+    &.gpzx-form-item {
+      margin-bottom: 18px;
+    }
+    .gpzx-form-item__error {
+      padding-top: 2px;
+    }
+  }
+  @include m(mini) {
+    .gpzx-form-item__label {
+      line-height: 28px;
+    }
+    .gpzx-form-item__content {
+      line-height: 28px;
+    }
+    &.gpzx-form-item {
+      margin-bottom: 18px;
+    }
+    .gpzx-form-item__error {
+      padding-top: 1px;
+    }
+  }
+
+  @include e(label-wrap) {
+    float: left;
+    .gpzx-form-item__label {
+      display: inline-block;
+      float: none;
+    }
+  }
+
+  @include e(label) {
+    text-align: right;
+    vertical-align: middle;
+    float: left;
+    font-size: $--form-label-font-size;
+    color: $--color-text-regular;
+    line-height: 40px;
+    padding: 0 12px 0 0;
+    box-sizing: border-box;
+  }
+  @include e(content) {
+    line-height: 40px;
+    position: relative;
+    font-size: 14px;
+    @include utils-clearfix;
+
+    .gpzx-input-group {
+      vertical-align: top;
+    }
+  }
+  @include e(error) {
+    color: $--color-danger;
+    font-size: 12px;
+    line-height: 1;
+    padding-top: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    @include m(inline) {
+      position: relative;
+      top: auto;
+      left: auto;
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+
+  @include when(required) {
+    @include pseudo('not(.is-no-asterisk)') {
+      & > .gpzx-form-item__label:before,
+      & .gpzx-form-item__label-wrap > .gpzx-form-item__label:before {
+        content: '*';
+        color: $--color-danger;
+        margin-right: 4px;
+      }
+    }
+  }
+
+  @include when(error) {
+    & .gpzx-input__inner,
+    & .gpzx-textarea__inner {
+      &, &:focus {
+        border-color: $--color-danger;
+      }
+    }
+    & .gpzx-input-group__append,
+    & .gpzx-input-group__prepend {
+      & .gpzx-input__inner {
+        border-color: transparent;
+      }
+    }
+    .gpzx-input__validateIcon {
+      color: $--color-danger;
+    }
+  }
+
+  @include m(feedback) {
+    .gpzx-input__validateIcon {
+      display: inline-block;
+    }
+  }
+}
