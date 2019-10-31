@@ -162,19 +162,19 @@
 
       renderCheckIcon(h) {
         return (
-          <i class="el-icon-check gpzx-cascader-node__prefix"></i>
+          <i class="gpzx-icon-check gpzx-cascader-node__prefix"></i>
         );
       },
 
       renderLoadingIcon(h) {
         return (
-          <i class="el-icon-loading gpzx-cascader-node__postfix"></i>
+          <i class="gpzx-icon-loading gpzx-cascader-node__postfix"></i>
         );
       },
 
       renderExpandIcon(h) {
         return (
-          <i class="el-icon-arrow-right gpzx-cascader-node__postfix"></i>
+          <i class="gpzx-icon-arrow-right gpzx-cascader-node__postfix"></i>
         );
       },
 

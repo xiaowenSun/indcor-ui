@@ -72,7 +72,7 @@
     <span class="demonstration">自定义</span>
     <gpzx-image>
       <div slot="error" class="image-slot">
-        <i class="el-icon-picture-outline"></i>
+        <i class="gpzx-icon-picture-outline"></i>
       </div>
     </gpzx-image>
   </div>

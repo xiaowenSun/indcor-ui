@@ -23,7 +23,7 @@
           </slot>
         </div>
         <div
-          class="gpzx-notification__closeBtn el-icon-close"
+          class="gpzx-notification__closeBtn gpzx-icon-close"
           v-if="showClose"
           @click.stop="close"></div>
       </div>
@@ -62,7 +62,7 @@
 
     computed: {
       typeClass() {
-        return this.type && typeMap[this.type] ? `el-icon-${ typeMap[this.type] }` : '';
+        return this.type && typeMap[this.type] ? `gpzx-icon-${ typeMap[this.type] }` : '';
       },
 
       horizontalClass() {

@@ -164,12 +164,12 @@
       },
       iconClass() {
         if (this.status === 'warning') {
-          return 'el-icon-warning';
+          return 'gpzx-icon-warning';
         }
         if (this.type === 'line') {
-          return this.status === 'success' ? 'el-icon-circle-check' : 'el-icon-circle-close';
+          return this.status === 'success' ? 'gpzx-icon-circle-check' : 'gpzx-icon-circle-close';
         } else {
-          return this.status === 'success' ? 'el-icon-check' : 'el-icon-close';
+          return this.status === 'success' ? 'gpzx-icon-check' : 'gpzx-icon-close';
         }
       },
       progressTextSize() {

@@ -50,7 +50,7 @@
                 </time-picker>
               </span>
             </span>
-            <span class="el-icon-arrow-right"></span>
+            <span class="gpzx-icon-arrow-right"></span>
             <span class="gpzx-date-range-picker__editors-wrap is-right">
               <span class="gpzx-date-range-picker__time-picker-wrap">
                 <gpzx-input
@@ -93,21 +93,21 @@
               <button
                 type="button"
                 @click="leftPrevMonth"
-                class="gpzx-picker-panel__icon-btn el-icon-arrow-left"></button>
+                class="gpzx-picker-panel__icon-btn gpzx-icon-arrow-left"></button>
               <button
                 type="button"
                 @click="leftNextYear"
                 v-if="unlinkPanels"
                 :disabled="!enableYearArrow"
                 :class="{ 'is-disabled': !enableYearArrow }"
-                class="gpzx-picker-panel__icon-btn el-icon-d-arrow-right"></button>
+                class="gpzx-picker-panel__icon-btn gpzx-icon-d-arrow-right"></button>
               <button
                 type="button"
                 @click="leftNextMonth"
                 v-if="unlinkPanels"
                 :disabled="!enableMonthArrow"
                 :class="{ 'is-disabled': !enableMonthArrow }"
-                class="gpzx-picker-panel__icon-btn el-icon-arrow-right"></button>
+                class="gpzx-picker-panel__icon-btn gpzx-icon-arrow-right"></button>
               <div>{{ leftLabel }}</div>
             </div>
             <date-table
@@ -132,22 +132,22 @@
                 v-if="unlinkPanels"
                 :disabled="!enableYearArrow"
                 :class="{ 'is-disabled': !enableYearArrow }"
-                class="gpzx-picker-panel__icon-btn el-icon-d-arrow-left"></button>
+                class="gpzx-picker-panel__icon-btn gpzx-icon-d-arrow-left"></button>
               <button
                 type="button"
                 @click="rightPrevMonth"
                 v-if="unlinkPanels"
                 :disabled="!enableMonthArrow"
                 :class="{ 'is-disabled': !enableMonthArrow }"
-                class="gpzx-picker-panel__icon-btn el-icon-arrow-left"></button>
+                class="gpzx-picker-panel__icon-btn gpzx-icon-arrow-left"></button>
               <button
                 type="button"
                 @click="rightNextYear"
-                class="gpzx-picker-panel__icon-btn el-icon-d-arrow-right"></button>
+                class="gpzx-picker-panel__icon-btn gpzx-icon-d-arrow-right"></button>
               <button
                 type="button"
                 @click="rightNextMonth"
-                class="gpzx-picker-panel__icon-btn el-icon-arrow-right"></button>
+                class="gpzx-picker-panel__icon-btn gpzx-icon-arrow-right"></button>
               <div>{{ rightLabel }}</div>
             </div>
             <date-table

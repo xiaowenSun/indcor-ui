@@ -36,12 +36,12 @@
 </gpzx-row>
 
 <gpzx-row>
-  <gpzx-button icon="el-icon-search" circle></gpzx-button>
-  <gpzx-button type="primary" icon="el-icon-edit" circle></gpzx-button>
-  <gpzx-button type="success" icon="el-icon-check" circle></gpzx-button>
-  <gpzx-button type="info" icon="el-icon-message" circle></gpzx-button>
-  <gpzx-button type="warning" icon="el-icon-star-off" circle></gpzx-button>
-  <gpzx-button type="danger" icon="el-icon-delete" circle></gpzx-button>
+  <gpzx-button icon="gpzx-icon-search" circle></gpzx-button>
+  <gpzx-button type="primary" icon="gpzx-icon-edit" circle></gpzx-button>
+  <gpzx-button type="success" icon="gpzx-icon-check" circle></gpzx-button>
+  <gpzx-button type="info" icon="gpzx-icon-message" circle></gpzx-button>
+  <gpzx-button type="warning" icon="gpzx-icon-star-off" circle></gpzx-button>
+  <gpzx-button type="danger" icon="gpzx-icon-delete" circle></gpzx-button>
 </gpzx-row>
 ```
 :::
@@ -88,14 +88,14 @@
 
 带图标的按钮可增强辨识度（有文字）或节省空间（无文字）。
 
-:::demo 设置`icon`属性即可，icon 的列表可以参考 Element 的 icon 组件，也可以设置在文字右边的 icon ，只要使用`i`标签即可，可以使用自定义图标。
+:::demo 设置`icon`属性即可，icon 的列表可以参考 GpzxUI 的 icon 组件，也可以设置在文字右边的 icon ，只要使用`i`标签即可，可以使用自定义图标。
 
 ```html
-<gpzx-button type="primary" icon="el-icon-edit"></gpzx-button>
-<gpzx-button type="primary" icon="el-icon-share"></gpzx-button>
-<gpzx-button type="primary" icon="el-icon-delete"></gpzx-button>
-<gpzx-button type="primary" icon="el-icon-search">搜索</gpzx-button>
-<gpzx-button type="primary">上传<i class="el-icon-upload el-icon--right"></i></gpzx-button>
+<gpzx-button type="primary" icon="gpzx-icon-edit"></gpzx-button>
+<gpzx-button type="primary" icon="gpzx-icon-share"></gpzx-button>
+<gpzx-button type="primary" icon="gpzx-icon-delete"></gpzx-button>
+<gpzx-button type="primary" icon="gpzx-icon-search">搜索</gpzx-button>
+<gpzx-button type="primary">上传<i class="gpzx-icon-upload gpzx-icon--right"></i></gpzx-button>
 ```
 :::
 
@@ -107,13 +107,13 @@
 
 ```html
 <gpzx-button-group>
-  <gpzx-button type="primary" icon="el-icon-arrow-left">上一页</gpzx-button>
-  <gpzx-button type="primary">下一页<i class="el-icon-arrow-right el-icon--right"></i></gpzx-button>
+  <gpzx-button type="primary" icon="gpzx-icon-arrow-left">上一页</gpzx-button>
+  <gpzx-button type="primary">下一页<i class="gpzx-icon-arrow-right gpzx-icon--right"></i></gpzx-button>
 </gpzx-button-group>
 <gpzx-button-group>
-  <gpzx-button type="primary" icon="el-icon-edit"></gpzx-button>
-  <gpzx-button type="primary" icon="el-icon-share"></gpzx-button>
-  <gpzx-button type="primary" icon="el-icon-delete"></gpzx-button>
+  <gpzx-button type="primary" icon="gpzx-icon-edit"></gpzx-button>
+  <gpzx-button type="primary" icon="gpzx-icon-share"></gpzx-button>
+  <gpzx-button type="primary" icon="gpzx-icon-delete"></gpzx-button>
 </gpzx-button-group>
 ```
 :::

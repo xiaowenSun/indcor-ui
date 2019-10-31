@@ -20,7 +20,7 @@
         @mouseleave.native="inputHover = false"
         v-if="filterable">
         <i slot="prefix"
-          :class="['gpzx-input__icon', 'el-icon-' + inputIcon]"
+          :class="['gpzx-input__icon', 'gpzx-icon-' + inputIcon]"
           @click="clearQuery"
         ></i>
       </gpzx-input>

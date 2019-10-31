@@ -31,7 +31,7 @@
               type="button"
               v-if="showClose"
               @click="closeDrawer">
-              <i class="gpzx-dialog__close gpzx-icon el-icon-close"></i>
+              <i class="gpzx-dialog__close gpzx-icon gpzx-icon-close"></i>
             </button>
           </header>
           <section class="gpzx-drawer__body" v-if="rendered">

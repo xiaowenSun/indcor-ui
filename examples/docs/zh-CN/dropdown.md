@@ -11,7 +11,7 @@
 ```html
 <gpzx-dropdown>
   <span class="gpzx-dropdown-link">
-    下拉菜单<i class="el-icon-arrow-down el-icon--right"></i>
+    下拉菜单<i class="gpzx-icon-arrow-down gpzx-icon--right"></i>
   </span>
   <gpzx-dropdown-menu slot="dropdown">
     <gpzx-dropdown-item>黄金糕</gpzx-dropdown-item>
@@ -27,7 +27,7 @@
     cursor: pointer;
     color: #409EFF;
   }
-  .el-icon-arrow-down {
+  .gpzx-icon-arrow-down {
     font-size: 12px;
   }
 </style>
@@ -43,7 +43,7 @@
 ```html
 <gpzx-dropdown>
   <gpzx-button type="primary">
-    更多菜单<i class="el-icon-arrow-down el-icon--right"></i>
+    更多菜单<i class="gpzx-icon-arrow-down gpzx-icon--right"></i>
   </gpzx-button>
   <gpzx-dropdown-menu slot="dropdown">
     <gpzx-dropdown-item>黄金糕</gpzx-dropdown-item>
@@ -71,7 +71,7 @@
   .gpzx-dropdown + .gpzx-dropdown {
     margin-left: 15px;
   }
-  .el-icon-arrow-down {
+  .gpzx-icon-arrow-down {
     font-size: 12px;
   }
 </style>
@@ -100,14 +100,14 @@
     <span class="demonstration">hover 激活</span>
     <gpzx-dropdown>
       <span class="gpzx-dropdown-link">
-        下拉菜单<i class="el-icon-arrow-down el-icon--right"></i>
+        下拉菜单<i class="gpzx-icon-arrow-down gpzx-icon--right"></i>
       </span>
       <gpzx-dropdown-menu slot="dropdown">
-        <gpzx-dropdown-item icon="el-icon-plus">黄金糕</gpzx-dropdown-item>
-        <gpzx-dropdown-item icon="el-icon-circle-plus">狮子头</gpzx-dropdown-item>
-        <gpzx-dropdown-item icon="el-icon-circle-plus-outline">螺蛳粉</gpzx-dropdown-item>
-        <gpzx-dropdown-item icon="el-icon-check">双皮奶</gpzx-dropdown-item>
-        <gpzx-dropdown-item icon="el-icon-circle-check">蚵仔煎</gpzx-dropdown-item>
+        <gpzx-dropdown-item icon="gpzx-icon-plus">黄金糕</gpzx-dropdown-item>
+        <gpzx-dropdown-item icon="gpzx-icon-circle-plus">狮子头</gpzx-dropdown-item>
+        <gpzx-dropdown-item icon="gpzx-icon-circle-plus-outline">螺蛳粉</gpzx-dropdown-item>
+        <gpzx-dropdown-item icon="gpzx-icon-check">双皮奶</gpzx-dropdown-item>
+        <gpzx-dropdown-item icon="gpzx-icon-circle-check">蚵仔煎</gpzx-dropdown-item>
       </gpzx-dropdown-menu>
     </gpzx-dropdown>
   </gpzx-col>
@@ -115,14 +115,14 @@
     <span class="demonstration">click 激活</span>
     <gpzx-dropdown trigger="click">
       <span class="gpzx-dropdown-link">
-        下拉菜单<i class="el-icon-arrow-down el-icon--right"></i>
+        下拉菜单<i class="gpzx-icon-arrow-down gpzx-icon--right"></i>
       </span>
       <gpzx-dropdown-menu slot="dropdown">
-        <gpzx-dropdown-item icon="el-icon-plus">黄金糕</gpzx-dropdown-item>
-        <gpzx-dropdown-item icon="el-icon-circle-plus">狮子头</gpzx-dropdown-item>
-        <gpzx-dropdown-item icon="el-icon-circle-plus-outline">螺蛳粉</gpzx-dropdown-item>
-        <gpzx-dropdown-item icon="el-icon-check">双皮奶</gpzx-dropdown-item>
-        <gpzx-dropdown-item icon="el-icon-circle-check">蚵仔煎</gpzx-dropdown-item>
+        <gpzx-dropdown-item icon="gpzx-icon-plus">黄金糕</gpzx-dropdown-item>
+        <gpzx-dropdown-item icon="gpzx-icon-circle-plus">狮子头</gpzx-dropdown-item>
+        <gpzx-dropdown-item icon="gpzx-icon-circle-plus-outline">螺蛳粉</gpzx-dropdown-item>
+        <gpzx-dropdown-item icon="gpzx-icon-check">双皮奶</gpzx-dropdown-item>
+        <gpzx-dropdown-item icon="gpzx-icon-circle-check">蚵仔煎</gpzx-dropdown-item>
       </gpzx-dropdown-menu>
     </gpzx-dropdown>
   </gpzx-col>
@@ -133,7 +133,7 @@
     cursor: pointer;
     color: #409EFF;
   }
-  .el-icon-arrow-down {
+  .gpzx-icon-arrow-down {
     font-size: 12px;
   }
   .demonstration {
@@ -154,7 +154,7 @@
 ```html
 <gpzx-dropdown :hide-on-click="false">
   <span class="gpzx-dropdown-link">
-    下拉菜单<i class="el-icon-arrow-down el-icon--right"></i>
+    下拉菜单<i class="gpzx-icon-arrow-down gpzx-icon--right"></i>
   </span>
   <gpzx-dropdown-menu slot="dropdown">
     <gpzx-dropdown-item>黄金糕</gpzx-dropdown-item>
@@ -170,7 +170,7 @@
     cursor: pointer;
     color: #409EFF;
   }
-  .el-icon-arrow-down {
+  .gpzx-icon-arrow-down {
     font-size: 12px;
   }
 </style>
@@ -185,7 +185,7 @@
 ```html
 <gpzx-dropdown @command="handleCommand">
   <span class="gpzx-dropdown-link">
-    下拉菜单<i class="el-icon-arrow-down el-icon--right"></i>
+    下拉菜单<i class="gpzx-icon-arrow-down gpzx-icon--right"></i>
   </span>
   <gpzx-dropdown-menu slot="dropdown">
     <gpzx-dropdown-item command="a">黄金糕</gpzx-dropdown-item>
@@ -201,7 +201,7 @@
     cursor: pointer;
     color: #409EFF;
   }
-  .el-icon-arrow-down {
+  .gpzx-icon-arrow-down {
     font-size: 12px;
   }
 </style>

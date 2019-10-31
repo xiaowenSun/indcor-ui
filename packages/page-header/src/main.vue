@@ -1,7 +1,7 @@
 <template>
   <div class="gpzx-page-header">
     <div class="gpzx-page-header__left" @click="$emit('back')">
-      <i class="el-icon-back"></i>
+      <i class="gpzx-icon-back"></i>
       <div class="gpzx-page-header__title">
         <slot name="title">{{ title }}</slot>
       </div>

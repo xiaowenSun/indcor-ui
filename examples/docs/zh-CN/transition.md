@@ -1,21 +1,21 @@
 ## 内置过渡动画
 
-Element 内应用在部分组件的过渡动画，你也可以直接使用。在使用之前请阅读 [transition 组件文档](https://cn.vuejs.org/v2/api/#transition) 。
+GpzxUI 内应用在部分组件的过渡动画，你也可以直接使用。在使用之前请阅读 [transition 组件文档](https://cn.vuejs.org/v2/api/#transition) 。
 
 ### fade 淡入淡出
 
-:::demo 提供 `el-fade-in-linear` 和 `el-fade-in` 两种效果。
+:::demo 提供 `gpzx-fade-in-linear` 和 `gpzx-fade-in` 两种效果。
 ```html
 <template>
   <div>
     <gpzx-button @click="show = !show">Click Me</gpzx-button>
 
     <div style="display: flex; margin-top: 20px; height: 100px;">
-      <transition name="el-fade-in-linear">
-        <div v-show="show" class="transition-box">.el-fade-in-linear</div>
+      <transition name="gpzx-fade-in-linear">
+        <div v-show="show" class="transition-box">.gpzx-fade-in-linear</div>
       </transition>
-      <transition name="el-fade-in">
-        <div v-show="show" class="transition-box">.el-fade-in</div>
+      <transition name="gpzx-fade-in">
+        <div v-show="show" class="transition-box">.gpzx-fade-in</div>
       </transition>
     </div>
   </div>
@@ -48,23 +48,23 @@ Element 内应用在部分组件的过渡动画，你也可以直接使用。在
 
 ### zoom 缩放
 
-:::demo 提供 `el-zoom-in-center`，`el-zoom-in-top` 和 `el-zoom-in-bottom` 三种效果。
+:::demo 提供 `gpzx-zoom-in-center`，`gpzx-zoom-in-top` 和 `gpzx-zoom-in-bottom` 三种效果。
 ```html
 <template>
   <div>
     <gpzx-button @click="show2 = !show2">Click Me</gpzx-button>
 
     <div style="display: flex; margin-top: 20px; height: 100px;">
-      <transition name="el-zoom-in-center">
-        <div v-show="show2" class="transition-box">.el-zoom-in-center</div>
+      <transition name="gpzx-zoom-in-center">
+        <div v-show="show2" class="transition-box">.gpzx-zoom-in-center</div>
       </transition>
 
-      <transition name="el-zoom-in-top">
-        <div v-show="show2" class="transition-box">.el-zoom-in-top</div>
+      <transition name="gpzx-zoom-in-top">
+        <div v-show="show2" class="transition-box">.gpzx-zoom-in-top</div>
       </transition>
 
-      <transition name="el-zoom-in-bottom">
-        <div v-show="show2" class="transition-box">.el-zoom-in-bottom</div>
+      <transition name="gpzx-zoom-in-bottom">
+        <div v-show="show2" class="transition-box">.gpzx-zoom-in-bottom</div>
       </transition>
     </div>
   </div>

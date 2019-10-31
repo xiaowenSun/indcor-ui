@@ -211,8 +211,8 @@
       } = this;
       const scrollBtn = scrollable
         ? [
-          <span class={['gpzx-tabs__nav-prev', scrollable.prev ? '' : 'is-disabled']} on-click={scrollPrev}><i class="el-icon-arrow-left"></i></span>,
-          <span class={['gpzx-tabs__nav-next', scrollable.next ? '' : 'is-disabled']} on-click={scrollNext}><i class="el-icon-arrow-right"></i></span>
+          <span class={['gpzx-tabs__nav-prev', scrollable.prev ? '' : 'is-disabled']} on-click={scrollPrev}><i class="gpzx-icon-arrow-left"></i></span>,
+          <span class={['gpzx-tabs__nav-next', scrollable.next ? '' : 'is-disabled']} on-click={scrollNext}><i class="gpzx-icon-arrow-right"></i></span>
         ] : null;
 
       const tabs = this._l(panes, (pane, index) => {
@@ -222,7 +222,7 @@
         pane.index = `${index}`;
 
         const btnClose = closable
-          ? <span class="el-icon-close" on-click={(ev) => { onTabRemove(pane, ev); }}></span>
+          ? <span class="gpzx-icon-close" on-click={(ev) => { onTabRemove(pane, ev); }}></span>
           : null;
 
         const tabLabelContent = pane.$slots.label || pane.label;

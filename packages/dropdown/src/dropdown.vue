@@ -264,7 +264,7 @@
             {this.$slots.default}
           </gpzx-button>
           <gpzx-button ref="trigger" type={type} size={dropdownSize} class="gpzx-dropdown__caret-button">
-            <i class="gpzx-dropdown__icon el-icon-arrow-down"></i>
+            <i class="gpzx-dropdown__icon gpzx-icon-arrow-down"></i>
           </gpzx-button>
         </gpzx-button-group>);
 

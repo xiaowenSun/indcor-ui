@@ -90,16 +90,16 @@
       iconClasses: {
         type: [Array, Object],
         default() {
-          return ['el-icon-star-on', 'el-icon-star-on', 'el-icon-star-on'];
+          return ['gpzx-icon-star-on', 'gpzx-icon-star-on', 'gpzx-icon-star-on'];
         }
       },
       voidIconClass: {
         type: String,
-        default: 'el-icon-star-off'
+        default: 'gpzx-icon-star-off'
       },
       disabledVoidIconClass: {
         type: String,
-        default: 'el-icon-star-on'
+        default: 'gpzx-icon-star-on'
       },
       disabled: {
         type: Boolean,

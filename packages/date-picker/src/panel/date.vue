@@ -53,14 +53,14 @@
               type="button"
               @click="prevYear"
               :aria-label="t(`el.datepicker.prevYear`)"
-              class="gpzx-picker-panel__icon-btn gpzx-date-picker__prev-btn el-icon-d-arrow-left">
+              class="gpzx-picker-panel__icon-btn gpzx-date-picker__prev-btn gpzx-icon-d-arrow-left">
             </button>
             <button
               type="button"
               @click="prevMonth"
               v-show="currentView === 'date'"
               :aria-label="t(`el.datepicker.prevMonth`)"
-              class="gpzx-picker-panel__icon-btn gpzx-date-picker__prev-btn el-icon-arrow-left">
+              class="gpzx-picker-panel__icon-btn gpzx-date-picker__prev-btn gpzx-icon-arrow-left">
             </button>
             <span
               @click="showYearPicker"
@@ -76,14 +76,14 @@
               type="button"
               @click="nextYear"
               :aria-label="t(`el.datepicker.nextYear`)"
-              class="gpzx-picker-panel__icon-btn gpzx-date-picker__next-btn el-icon-d-arrow-right">
+              class="gpzx-picker-panel__icon-btn gpzx-date-picker__next-btn gpzx-icon-d-arrow-right">
             </button>
             <button
               type="button"
               @click="nextMonth"
               v-show="currentView === 'date'"
               :aria-label="t(`el.datepicker.nextMonth`)"
-              class="gpzx-picker-panel__icon-btn gpzx-date-picker__next-btn el-icon-arrow-right">
+              class="gpzx-picker-panel__icon-btn gpzx-date-picker__next-btn gpzx-icon-arrow-right">
             </button>
           </div>
 

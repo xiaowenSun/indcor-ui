@@ -1,5 +1,5 @@
 <template>
-  <aside class="el-aside" :style="{ width }">
+  <aside class="gpzx-aside" :style="{ width }">
     <slot></slot>
   </aside>
 </template>

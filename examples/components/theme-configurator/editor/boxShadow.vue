@@ -8,7 +8,7 @@
         class="plus-button" 
         size="mini" 
         round 
-        icon="el-icon-plus"
+        icon="gpzx-icon-plus"
         @click.stop="onAddShadow"
       >
       </gpzx-button>
@@ -64,7 +64,7 @@
         <gpzx-button 
           size="mini" 
           round 
-          icon="el-icon-minus"
+          icon="gpzx-icon-minus"
           @click.stop="val => onMinusShadow(key)"
         ></gpzx-button>
       </div>

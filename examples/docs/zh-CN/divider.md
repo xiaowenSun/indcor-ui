@@ -30,7 +30,7 @@
     <span>头上一片晴天，心中一个想念</span>
     <gpzx-divider content-position="left">少年包青天</gpzx-divider>
     <span>饿了别叫妈, 叫饿了么</span>
-    <gpzx-divider><i class="el-icon-mobile-phone"></i></gpzx-divider>
+    <gpzx-divider><i class="gpzx-icon-mobile-phone"></i></gpzx-divider>
     <span>为了无法计算的价值</span>
     <gpzx-divider content-position="right">阿里云</gpzx-divider>
   </div>

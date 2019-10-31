@@ -1,5 +1,5 @@
 <template>
-  <header class="el-header" :style="{ height }">
+  <header class="gpzx-header" :style="{ height }">
     <slot></slot>
   </header>
 </template>

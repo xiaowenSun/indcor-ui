@@ -96,7 +96,7 @@
         <slot name="prefix"></slot>
       </template>
       <template slot="suffix">
-        <i v-show="!showClose" :class="['gpzx-select__caret', 'gpzx-input__icon', 'el-icon-' + iconClass]"></i>
+        <i v-show="!showClose" :class="['gpzx-select__caret', 'gpzx-input__icon', 'gpzx-icon-' + iconClass]"></i>
         <i v-if="showClose" class="gpzx-select__caret gpzx-input__icon gpzx-icon-circle-close" @click="handleClearClick"></i>
       </template>
     </gpzx-input>

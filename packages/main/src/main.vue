@@ -1,5 +1,5 @@
 <template>
-  <main class="el-main">
+  <main class="gpzx-main">
     <slot></slot>
   </main>
 </template>

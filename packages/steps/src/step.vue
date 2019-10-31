@@ -28,7 +28,7 @@
         </slot>
         <i
           v-else
-          :class="['el-icon-' + (currentStatus === 'success' ? 'check' : 'close')]"
+          :class="['gpzx-icon-' + (currentStatus === 'success' ? 'check' : 'close')]"
           class="gpzx-step__icon-inner is-status"
         >
         </i>

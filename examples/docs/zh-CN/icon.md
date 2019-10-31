@@ -4,14 +4,14 @@
 
 ### 使用方法
 
-直接通过设置类名为 `el-icon-iconName` 来使用即可。例如：
+直接通过设置类名为 `gpzx-icon-iconName` 来使用即可。例如：
 
 :::demo
 ```html
-<i class="el-icon-edit"></i>
-<i class="el-icon-share"></i>
-<i class="el-icon-delete"></i>
-<gpzx-button type="primary" icon="el-icon-search">搜索</gpzx-button>
+<i class="gpzx-icon-edit"></i>
+<i class="gpzx-icon-share"></i>
+<i class="gpzx-icon-delete"></i>
+<gpzx-button type="primary" icon="gpzx-icon-search">搜索</gpzx-button>
 
 ```
 :::
@@ -21,8 +21,8 @@
 <ul class="icon-list">
   <li v-for="name in $icon" :key="name">
     <span>
-      <i :class="'el-icon-' + name"></i>
-      <span class="icon-name">{{'el-icon-' + name}}</span>
+      <i :class="'gpzx-icon-' + name"></i>
+      <span class="icon-name">{{'gpzx-icon-' + name}}</span>
     </span>
   </li>
 </ul>

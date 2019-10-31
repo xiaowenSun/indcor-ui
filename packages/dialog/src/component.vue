@@ -25,7 +25,7 @@
             aria-label="Close"
             v-if="showClose"
             @click="handleClose">
-            <i class="gpzx-dialog__close gpzx-icon el-icon-close"></i>
+            <i class="gpzx-dialog__close gpzx-icon gpzx-icon-close"></i>
           </button>
         </div>
         <div class="gpzx-dialog__body" v-if="rendered"><slot></slot></div>

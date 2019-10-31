@@ -103,12 +103,12 @@ export default {
   属性方式：
   <gpzx-input
     placeholder="请选择日期"
-    suffix-icon="el-icon-date"
+    suffix-icon="gpzx-icon-date"
     v-model="input1">
   </gpzx-input>
   <gpzx-input
     placeholder="请输入内容"
-    prefix-icon="el-icon-search"
+    prefix-icon="gpzx-icon-search"
     v-model="input2">
   </gpzx-input>
 </div>
@@ -117,12 +117,12 @@ export default {
   <gpzx-input
     placeholder="请选择日期"
     v-model="input3">
-    <i slot="suffix" class="gpzx-input__icon el-icon-date"></i>
+    <i slot="suffix" class="gpzx-input__icon gpzx-icon-date"></i>
   </gpzx-input>
   <gpzx-input
     placeholder="请输入内容"
     v-model="input4">
-    <i slot="prefix" class="gpzx-input__icon el-icon-search"></i>
+    <i slot="prefix" class="gpzx-input__icon gpzx-icon-search"></i>
   </gpzx-input>
 </div>
 
@@ -222,7 +222,7 @@ export default {
       <gpzx-option label="订单号" value="2"></gpzx-option>
       <gpzx-option label="用户电话" value="3"></gpzx-option>
     </gpzx-select>
-    <gpzx-button slot="append" icon="el-icon-search"></gpzx-button>
+    <gpzx-button slot="append" icon="gpzx-icon-search"></gpzx-button>
   </gpzx-input>
 </div>
 <style>
@@ -255,25 +255,25 @@ export default {
 <div class="demo-input-size">
   <gpzx-input
     placeholder="请输入内容"
-    suffix-icon="el-icon-date"
+    suffix-icon="gpzx-icon-date"
     v-model="input1">
   </gpzx-input>
   <gpzx-input
     size="medium"
     placeholder="请输入内容"
-    suffix-icon="el-icon-date"
+    suffix-icon="gpzx-icon-date"
     v-model="input2">
   </gpzx-input>
   <gpzx-input
     size="small"
     placeholder="请输入内容"
-    suffix-icon="el-icon-date"
+    suffix-icon="gpzx-icon-date"
     v-model="input3">
   </gpzx-input>
   <gpzx-input
     size="mini"
     placeholder="请输入内容"
-    suffix-icon="el-icon-date"
+    suffix-icon="gpzx-icon-date"
     v-model="input4">
   </gpzx-input>
 </div>
@@ -420,7 +420,7 @@ export default {
   placeholder="请输入内容"
   @select="handleSelect">
   <i
-    class="el-icon-edit gpzx-input__icon"
+    class="gpzx-icon-edit gpzx-input__icon"
     slot="suffix"
     @click="handleIconClick">
   </i>

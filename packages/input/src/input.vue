@@ -204,9 +204,9 @@
       },
       validateIcon() {
         return {
-          validating: 'el-icon-loading',
-          success: 'el-icon-circle-check',
-          error: 'el-icon-circle-close'
+          validating: 'gpzx-icon-loading',
+          success: 'gpzx-icon-circle-check',
+          error: 'gpzx-icon-circle-close'
         }[this.validateState];
       },
       textareaStyle() {

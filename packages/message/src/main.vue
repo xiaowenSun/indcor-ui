@@ -19,7 +19,7 @@
         <p v-if="!dangerouslyUseHTMLString" class="gpzx-message__content">{{ message }}</p>
         <p v-else v-html="message" class="gpzx-message__content"></p>
       </slot>
-      <i v-if="showClose" class="gpzx-message__closeBtn el-icon-close" @click="close"></i>
+      <i v-if="showClose" class="gpzx-message__closeBtn gpzx-icon-close" @click="close"></i>
     </div>
   </transition>
 </template>
@@ -54,7 +54,7 @@
     computed: {
       typeClass() {
         return this.type && !this.iconClass
-          ? `gpzx-message__icon el-icon-${ typeMap[this.type] }`
+          ? `gpzx-message__icon gpzx-icon-${ typeMap[this.type] }`
           : '';
       },
       positionStyle() {

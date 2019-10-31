@@ -49,8 +49,8 @@
 :::demo
 ```html
 <div>
-  <gpzx-link icon="el-icon-edit">编辑</gpzx-link>
-  <gpzx-link>查看<i class="el-icon-view el-icon--right"></i> </gpzx-link>
+  <gpzx-link icon="gpzx-icon-edit">编辑</gpzx-link>
+  <gpzx-link>查看<i class="gpzx-icon-view gpzx-icon--right"></i> </gpzx-link>
 </div>
 ```
 :::

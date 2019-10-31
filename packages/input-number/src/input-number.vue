@@ -15,7 +15,7 @@
       v-repeat-click="decrease"
       :class="{'is-disabled': minDisabled}"
       @keydown.enter="decrease">
-      <i :class="`el-icon-${controlsAtRight ? 'arrow-down' : 'minus'}`"></i>
+      <i :class="`gpzx-icon-${controlsAtRight ? 'arrow-down' : 'minus'}`"></i>
     </span>
     <span
       class="gpzx-input-number__increase"
@@ -24,7 +24,7 @@
       v-repeat-click="increase"
       :class="{'is-disabled': maxDisabled}"
       @keydown.enter="increase">
-      <i :class="`el-icon-${controlsAtRight ? 'arrow-up' : 'plus'}`"></i>
+      <i :class="`gpzx-icon-${controlsAtRight ? 'arrow-up' : 'plus'}`"></i>
     </span>
     <gpzx-input
       ref="input"

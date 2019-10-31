@@ -9,7 +9,7 @@
       :class="[quickprevIconClass, { disabled }]"
       v-if="showPrevMore"
       @mouseenter="onMouseenter('left')"
-      @mouseleave="quickprevIconClass = 'el-icon-more'">
+      @mouseleave="quickprevIconClass = 'gpzx-icon-more'">
     </li>
     <li
       v-for="pager in pagers"
@@ -21,7 +21,7 @@
       :class="[quicknextIconClass, { disabled }]"
       v-if="showNextMore"
       @mouseenter="onMouseenter('right')"
-      @mouseleave="quicknextIconClass = 'el-icon-more'">
+      @mouseleave="quicknextIconClass = 'gpzx-icon-more'">
     </li>
     <li
       :class="{ active: currentPage === pageCount, disabled }"
@@ -46,11 +46,11 @@
 
     watch: {
       showPrevMore(val) {
-        if (!val) this.quickprevIconClass = 'el-icon-more';
+        if (!val) this.quickprevIconClass = 'gpzx-icon-more';
       },
 
       showNextMore(val) {
-        if (!val) this.quicknextIconClass = 'el-icon-more';
+        if (!val) this.quicknextIconClass = 'gpzx-icon-more';
       }
     },
 
@@ -93,9 +93,9 @@
       onMouseenter(direction) {
         if (this.disabled) return;
         if (direction === 'left') {
-          this.quickprevIconClass = 'el-icon-d-arrow-left';
+          this.quickprevIconClass = 'gpzx-icon-d-arrow-left';
         } else {
-          this.quicknextIconClass = 'el-icon-d-arrow-right';
+          this.quicknextIconClass = 'gpzx-icon-d-arrow-right';
         }
       }
     },
@@ -155,8 +155,8 @@
         current: null,
         showPrevMore: false,
         showNextMore: false,
-        quicknextIconClass: 'el-icon-more',
-        quickprevIconClass: 'el-icon-more'
+        quicknextIconClass: 'gpzx-icon-more',
+        quickprevIconClass: 'gpzx-icon-more'
       };
     }
   };

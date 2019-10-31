@@ -16,7 +16,7 @@
           @mouseleave="handleButtonLeave"
           @click.stop="throttledArrowClick(activeIndex - 1)"
           class="gpzx-carousel__arrow gpzx-carousel__arrow--left">
-          <i class="el-icon-arrow-left"></i>
+          <i class="gpzx-icon-arrow-left"></i>
         </button>
       </transition>
       <transition
@@ -29,7 +29,7 @@
           @mouseleave="handleButtonLeave"
           @click.stop="throttledArrowClick(activeIndex + 1)"
           class="gpzx-carousel__arrow gpzx-carousel__arrow--right">
-          <i class="el-icon-arrow-right"></i>
+          <i class="gpzx-icon-arrow-right"></i>
         </button>
       </transition>
       <slot></slot>

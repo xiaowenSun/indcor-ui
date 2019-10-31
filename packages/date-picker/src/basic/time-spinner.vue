@@ -55,8 +55,8 @@
       <div
         @mouseenter="emitSelectRange('hours')"
         class="gpzx-time-spinner__wrapper is-arrow">
-        <i v-repeat-click="decrease" class="gpzx-time-spinner__arrow el-icon-arrow-up"></i>
-        <i v-repeat-click="increase" class="gpzx-time-spinner__arrow el-icon-arrow-down"></i>
+        <i v-repeat-click="decrease" class="gpzx-time-spinner__arrow gpzx-icon-arrow-up"></i>
+        <i v-repeat-click="increase" class="gpzx-time-spinner__arrow gpzx-icon-arrow-down"></i>
         <ul class="gpzx-time-spinner__list" ref="hours">
           <li
             class="gpzx-time-spinner__item"
@@ -68,8 +68,8 @@
       <div
         @mouseenter="emitSelectRange('minutes')"
         class="gpzx-time-spinner__wrapper is-arrow">
-        <i v-repeat-click="decrease" class="gpzx-time-spinner__arrow el-icon-arrow-up"></i>
-        <i v-repeat-click="increase" class="gpzx-time-spinner__arrow el-icon-arrow-down"></i>
+        <i v-repeat-click="decrease" class="gpzx-time-spinner__arrow gpzx-icon-arrow-up"></i>
+        <i v-repeat-click="increase" class="gpzx-time-spinner__arrow gpzx-icon-arrow-down"></i>
         <ul class="gpzx-time-spinner__list" ref="minutes">
           <li
             class="gpzx-time-spinner__item"
@@ -84,8 +84,8 @@
         @mouseenter="emitSelectRange('seconds')"
         class="gpzx-time-spinner__wrapper is-arrow"
         v-if="showSeconds">
-        <i v-repeat-click="decrease" class="gpzx-time-spinner__arrow el-icon-arrow-up"></i>
-        <i v-repeat-click="increase" class="gpzx-time-spinner__arrow el-icon-arrow-down"></i>
+        <i v-repeat-click="decrease" class="gpzx-time-spinner__arrow gpzx-icon-arrow-up"></i>
+        <i v-repeat-click="increase" class="gpzx-time-spinner__arrow gpzx-icon-arrow-down"></i>
         <ul class="gpzx-time-spinner__list" ref="seconds">
           <li
             v-for="(second, key) in arrowSecondList"

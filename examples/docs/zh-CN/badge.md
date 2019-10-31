@@ -23,7 +23,7 @@
 
 <gpzx-dropdown trigger="click">
   <span class="gpzx-dropdown-link">
-    点我查看<i class="el-icon-caret-bottom el-icon--right"></i>
+    点我查看<i class="gpzx-icon-caret-bottom gpzx-icon--right"></i>
   </span>
   <gpzx-dropdown-menu slot="dropdown">
     <gpzx-dropdown-item class="clearfix">
@@ -98,7 +98,7 @@
 ```html
 <gpzx-badge is-dot class="item">数据查询</gpzx-badge>
 <gpzx-badge is-dot class="item">
-  <gpzx-button class="share-button" icon="el-icon-share" type="primary"></gpzx-button>
+  <gpzx-button class="share-button" icon="gpzx-icon-share" type="primary"></gpzx-button>
 </gpzx-badge>
 
 <style>

@@ -30,7 +30,7 @@
         :class="[
           { 'is-leaf': node.isLeaf, expanded: !node.isLeaf && expanded },
           'gpzx-tree-node__expand-icon',
-          tree.iconClass ? tree.iconClass : 'el-icon-caret-right'
+          tree.iconClass ? tree.iconClass : 'gpzx-icon-caret-right'
         ]"
       >
       </span>
@@ -45,7 +45,7 @@
       </gpzx-checkbox>
       <span
         v-if="node.loading"
-        class="gpzx-tree-node__loading-icon el-icon-loading">
+        class="gpzx-tree-node__loading-icon gpzx-icon-loading">
       </span>
       <node-content :node="node"></node-content>
     </div>

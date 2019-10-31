@@ -163,7 +163,7 @@
 :::
 
 :::tip
-弹出层的内容可以是 `VNode`，所以我们能把一些自定义组件传入其中。每次弹出层打开后，Vue 会对新老 `VNode` 节点进行比对，然后将根据比较结果进行最小单位地修改视图。这也许会造成弹出层内容区域的组件没有重新渲染，例如 [#8931](https://github.com/ElemeFE/element/issues/8931)。当这类问题出现时，解决方案是给 `VNode` 加上一个不相同的 key，参考[这里](https://jsfiddle.net/zhiyang/ezmhq2ef/)。
+弹出层的内容可以是 `VNode`，所以我们能把一些自定义组件传入其中。每次弹出层打开后，Vue 会对新老 `VNode` 节点进行比对，然后将根据比较结果进行最小单位地修改视图。这也许会造成弹出层内容区域的组件没有重新渲染，当这类问题出现时，解决方案是给 `VNode` 加上一个不相同的 key。
 :::
 
 ### 使用 HTML 片段
@@ -275,7 +275,7 @@
 
 ### 全局方法
 
-如果你完整引入了 Element，它会为 Vue.prototype 添加如下全局方法：$msgbox, $alert, $confirm 和 $prompt。因此在 Vue instance 中可以采用本页面中的方式调用 `MessageBox`。调用参数为：
+如果你完整引入了 GpzxUI，它会为 Vue.prototype 添加如下全局方法：$msgbox, $alert, $confirm 和 $prompt。因此在 Vue instance 中可以采用本页面中的方式调用 `MessageBox`。调用参数为：
 - `$msgbox(options)`
 - `$alert(message, title, options)` 或 `$alert(message, options)`
 - `$confirm(message, title, options)` 或 `$confirm(message, options)`

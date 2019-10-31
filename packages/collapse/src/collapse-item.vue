@@ -23,7 +23,7 @@
       >
         <slot name="title">{{title}}</slot>
         <i
-          class="gpzx-collapse-item__arrow el-icon-arrow-right"
+          class="gpzx-collapse-item__arrow gpzx-icon-arrow-right"
           :class="{'is-active': isActive}">
         </i>
       </div>

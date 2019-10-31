@@ -53,8 +53,8 @@
 <gpzx-progress :percentage="percentage" :color="customColors"></gpzx-progress>
 <div>
   <gpzx-button-group>
-    <gpzx-button icon="el-icon-minus" @click="decrease"></gpzx-button>
-    <gpzx-button icon="el-icon-plus" @click="increase"></gpzx-button>
+    <gpzx-button icon="gpzx-icon-minus" @click="decrease"></gpzx-button>
+    <gpzx-button icon="gpzx-icon-plus" @click="increase"></gpzx-button>
   </gpzx-button-group>
 </div>
 
@@ -125,8 +125,8 @@ Progress 组件可通过 `type` 属性来指定使用环形进度条，在环形
 <gpzx-progress type="dashboard" :percentage="percentage" :color="colors"></gpzx-progress>
 <div>
   <gpzx-button-group>
-    <gpzx-button icon="el-icon-minus" @click="decrease"></gpzx-button>
-    <gpzx-button icon="el-icon-plus" @click="increase"></gpzx-button>
+    <gpzx-button icon="gpzx-icon-minus" @click="decrease"></gpzx-button>
+    <gpzx-button icon="gpzx-icon-plus" @click="increase"></gpzx-button>
   </gpzx-button-group>
 </div>
 

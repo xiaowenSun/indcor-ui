@@ -25,17 +25,17 @@
           :src="file.url" alt=""
         >
         <a class="gpzx-upload-list__item-name" @click="handleClick(file)">
-          <i class="el-icon-document"></i>{{file.name}}
+          <i class="gpzx-icon-document"></i>{{file.name}}
         </a>
         <label class="gpzx-upload-list__item-status-label">
           <i :class="{
-            'el-icon-upload-success': true,
-            'el-icon-circle-check': listType === 'text',
-            'el-icon-check': ['picture-card', 'picture'].indexOf(listType) > -1
+            'gpzx-icon-upload-success': true,
+            'gpzx-icon-circle-check': listType === 'text',
+            'gpzx-icon-check': ['picture-card', 'picture'].indexOf(listType) > -1
           }"></i>
         </label>
-        <i class="el-icon-close" v-if="!disabled" @click="$emit('remove', file)"></i>
-        <i class="el-icon-close-tip" v-if="!disabled">{{ t('el.upload.deleteTip') }}</i> <!--因为close按钮只在li:focus的时候 display, li blur后就不存在了，所以键盘导航时永远无法 focus到 close按钮上-->
+        <i class="gpzx-icon-close" v-if="!disabled" @click="$emit('remove', file)"></i>
+        <i class="gpzx-icon-close-tip" v-if="!disabled">{{ t('el.upload.deleteTip') }}</i> <!--因为close按钮只在li:focus的时候 display, li blur后就不存在了，所以键盘导航时永远无法 focus到 close按钮上-->
         <gpzx-progress
           v-if="file.status === 'uploading'"
           :type="listType === 'picture-card' ? 'circle' : 'line'"
@@ -48,14 +48,14 @@
             v-if="handlePreview && listType === 'picture-card'"
             @click="handlePreview(file)"
           >
-            <i class="el-icon-zoom-in"></i>
+            <i class="gpzx-icon-zoom-in"></i>
           </span>
           <span
             v-if="!disabled"
             class="gpzx-upload-list__item-delete"
             @click="$emit('remove', file)"
           >
-            <i class="el-icon-delete"></i>
+            <i class="gpzx-icon-delete"></i>
           </span>
         </span>
       </slot>

@@ -123,7 +123,7 @@
 ```html
 <gpzx-tabs type="border-card">
   <gpzx-tab-pane>
-    <span slot="label"><i class="el-icon-date"></i> 我的行程</span>
+    <span slot="label"><i class="gpzx-icon-date"></i> 我的行程</span>
     我的行程
   </gpzx-tab-pane>
   <gpzx-tab-pane label="消息中心">消息中心</gpzx-tab-pane>

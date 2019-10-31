@@ -54,7 +54,7 @@
 <template>
   <div class="demo-type">
     <div>
-      <gpzx-avatar icon="el-icon-user-solid"></gpzx-avatar>
+      <gpzx-avatar icon="gpzx-icon-user-solid"></gpzx-avatar>
     </div>
     <div>
       <gpzx-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"></gpzx-avatar>

@@ -6,7 +6,7 @@
 
 在表格等容器中加载数据时显示。
 
-:::demo Element 提供了两种调用 Loading 的方法：指令和服务。对于自定义指令`v-loading`，只需要绑定`Boolean`即可。默认状况下，Loading 遮罩会插入到绑定元素的子节点，通过添加`body`修饰符，可以使遮罩插入至 DOM 中的 body 上。
+:::demo GpzxUI 提供了两种调用 Loading 的方法：指令和服务。对于自定义指令`v-loading`，只需要绑定`Boolean`即可。默认状况下，Loading 遮罩会插入到绑定元素的子节点，通过添加`body`修饰符，可以使遮罩插入至 DOM 中的 body 上。
 ```html
 <template>
   <gpzx-table
@@ -65,14 +65,14 @@
 
 可自定义加载文案、图标和背景色。
 
-:::demo 在绑定了`v-loading`指令的元素上添加`element-loading-text`属性，其值会被渲染为加载文案，并显示在加载图标的下方。类似地，`element-loading-spinner`和`element-loading-background`属性分别用来设定图标类名和背景色值。
+:::demo 在绑定了`v-loading`指令的元素上添加`gpzx-loading-text`属性，其值会被渲染为加载文案，并显示在加载图标的下方。类似地，`gpzx-loading-spinner`和`gpzx-loading-background`属性分别用来设定图标类名和背景色值。
 ```html
 <template>
   <gpzx-table
     v-loading="loading"
-    element-loading-text="拼命加载中"
-    element-loading-spinner="el-icon-loading"
-    element-loading-background="rgba(0, 0, 0, 0.8)"
+    gpzx-loading-text="拼命加载中"
+    gpzx-loading-spinner="gpzx-icon-loading"
+    gpzx-loading-background="rgba(0, 0, 0, 0.8)"
     :data="tableData"
     style="width: 100%">
     <gpzx-table-column
@@ -156,7 +156,7 @@
         const loading = this.$loading({
           lock: true,
           text: 'Loading',
-          spinner: 'el-icon-loading',
+          spinner: 'gpzx-icon-loading',
           background: 'rgba(0, 0, 0, 0.7)'
         });
         setTimeout(() => {

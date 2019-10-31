@@ -264,7 +264,7 @@
       },
 
       iconClass() {
-        return this.isExpanded ? 'el-icon-caret-top' : 'el-icon-caret-bottom';
+        return this.isExpanded ? 'gpzx-icon-caret-top' : 'gpzx-icon-caret-bottom';
       },
 
       controlText() {

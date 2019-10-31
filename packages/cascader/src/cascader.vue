@@ -28,14 +28,14 @@
         <i
           v-if="clearBtnVisible"
           key="clear"
-          class="gpzx-input__icon el-icon-circle-close"
+          class="gpzx-input__icon gpzx-icon-circle-close"
           @click.stop="handleClear"></i>
         <i
           v-else
           key="arrow-down"
           :class="[
             'gpzx-input__icon',
-            'el-icon-arrow-down',
+            'gpzx-icon-arrow-down',
             dropDownVisible && 'is-reverse'
           ]"
           @click.stop="toggleDropDownVisible()"></i>
@@ -99,7 +99,7 @@
               :tabindex="-1"
               @click="handleSuggestionClick(index)">
               <span>{{ item.text }}</span>
-              <i v-if="item.checked" class="el-icon-check"></i>
+              <i v-if="item.checked" class="gpzx-icon-check"></i>
             </li>
           </template>
           <slot v-else name="empty">

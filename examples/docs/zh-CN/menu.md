@@ -86,7 +86,7 @@
       @close="handleClose">
       <gpzx-submenu index="1">
         <template slot="title">
-          <i class="el-icon-location"></i>
+          <i class="gpzx-icon-location"></i>
           <span>导航一</span>
         </template>
         <gpzx-menu-item-group>
@@ -103,15 +103,15 @@
         </gpzx-submenu>
       </gpzx-submenu>
       <gpzx-menu-item index="2">
-        <i class="el-icon-menu"></i>
+        <i class="gpzx-icon-menu"></i>
         <span slot="title">导航二</span>
       </gpzx-menu-item>
       <gpzx-menu-item index="3" disabled>
-        <i class="el-icon-document"></i>
+        <i class="gpzx-icon-document"></i>
         <span slot="title">导航三</span>
       </gpzx-menu-item>
       <gpzx-menu-item index="4">
-        <i class="el-icon-setting"></i>
+        <i class="gpzx-icon-setting"></i>
         <span slot="title">导航四</span>
       </gpzx-menu-item>
     </gpzx-menu>
@@ -128,7 +128,7 @@
       active-text-color="#ffd04b">
       <gpzx-submenu index="1">
         <template slot="title">
-          <i class="el-icon-location"></i>
+          <i class="gpzx-icon-location"></i>
           <span>导航一</span>
         </template>
         <gpzx-menu-item-group>
@@ -145,15 +145,15 @@
         </gpzx-submenu>
       </gpzx-submenu>
       <gpzx-menu-item index="2">
-        <i class="el-icon-menu"></i>
+        <i class="gpzx-icon-menu"></i>
         <span slot="title">导航二</span>
       </gpzx-menu-item>
       <gpzx-menu-item index="3" disabled>
-        <i class="el-icon-document"></i>
+        <i class="gpzx-icon-document"></i>
         <span slot="title">导航三</span>
       </gpzx-menu-item>
       <gpzx-menu-item index="4">
-        <i class="el-icon-setting"></i>
+        <i class="gpzx-icon-setting"></i>
         <span slot="title">导航四</span>
       </gpzx-menu-item>
     </gpzx-menu>
@@ -186,7 +186,7 @@
 <gpzx-menu default-active="1-4-1" class="gpzx-menu-vertical-demo" @open="handleOpen" @close="handleClose" :collapse="isCollapse">
   <gpzx-submenu index="1">
     <template slot="title">
-      <i class="el-icon-location"></i>
+      <i class="gpzx-icon-location"></i>
       <span slot="title">导航一</span>
     </template>
     <gpzx-menu-item-group>
@@ -203,15 +203,15 @@
     </gpzx-submenu>
   </gpzx-submenu>
   <gpzx-menu-item index="2">
-    <i class="el-icon-menu"></i>
+    <i class="gpzx-icon-menu"></i>
     <span slot="title">导航二</span>
   </gpzx-menu-item>
   <gpzx-menu-item index="3" disabled>
-    <i class="el-icon-document"></i>
+    <i class="gpzx-icon-document"></i>
     <span slot="title">导航三</span>
   </gpzx-menu-item>
   <gpzx-menu-item index="4">
-    <i class="el-icon-setting"></i>
+    <i class="gpzx-icon-setting"></i>
     <span slot="title">导航四</span>
   </gpzx-menu-item>
 </gpzx-menu>

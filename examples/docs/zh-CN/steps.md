@@ -83,9 +83,9 @@
 ```html
 
 <gpzx-steps :active="1">
-  <gpzx-step title="步骤 1" icon="el-icon-edit"></gpzx-step>
-  <gpzx-step title="步骤 2" icon="el-icon-upload"></gpzx-step>
-  <gpzx-step title="步骤 3" icon="el-icon-picture"></gpzx-step>
+  <gpzx-step title="步骤 1" icon="gpzx-icon-edit"></gpzx-step>
+  <gpzx-step title="步骤 2" icon="gpzx-icon-upload"></gpzx-step>
+  <gpzx-step title="步骤 3" icon="gpzx-icon-picture"></gpzx-step>
 </gpzx-steps>
 ```
 :::
@@ -113,9 +113,9 @@
 ```html
 
 <gpzx-steps :active="1" simple>
-  <gpzx-step title="步骤 1" icon="el-icon-edit"></gpzx-step>
-  <gpzx-step title="步骤 2" icon="el-icon-upload"></gpzx-step>
-  <gpzx-step title="步骤 3" icon="el-icon-picture"></gpzx-step>
+  <gpzx-step title="步骤 1" icon="gpzx-icon-edit"></gpzx-step>
+  <gpzx-step title="步骤 2" icon="gpzx-icon-upload"></gpzx-step>
+  <gpzx-step title="步骤 3" icon="gpzx-icon-picture"></gpzx-step>
 </gpzx-steps>
 
 <gpzx-steps :active="1" finish-status="success" simple style="margin-top: 20px">

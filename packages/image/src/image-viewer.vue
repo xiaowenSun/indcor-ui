@@ -4,7 +4,7 @@
       <div class="gpzx-image-viewer__mask"></div>
       <!-- CLOSE -->
       <span class="gpzx-image-viewer__btn gpzx-image-viewer__close" @click="hide">
-        <i class="el-icon-circle-close"></i>
+        <i class="gpzx-icon-circle-close"></i>
       </span>
       <!-- ARROW -->
       <template v-if="!isSingle">
@@ -12,25 +12,25 @@
           class="gpzx-image-viewer__btn gpzx-image-viewer__prev"
           :class="{ 'is-disabled': !infinite && isFirst }"
           @click="prev">
-          <i class="el-icon-arrow-left"/>
+          <i class="gpzx-icon-arrow-left"/>
         </span>
         <span
           class="gpzx-image-viewer__btn gpzx-image-viewer__next"
           :class="{ 'is-disabled': !infinite && isLast }"
           @click="next">
-          <i class="el-icon-arrow-right"/>
+          <i class="gpzx-icon-arrow-right"/>
         </span>
       </template>
       <!-- ACTIONS -->
       <div class="gpzx-image-viewer__btn gpzx-image-viewer__actions">
         <div class="gpzx-image-viewer__actions__inner">
-          <i class="el-icon-zoom-out" @click="handleActions('zoomOut')"></i>
-          <i class="el-icon-zoom-in" @click="handleActions('zoomIn')"></i>
+          <i class="gpzx-icon-zoom-out" @click="handleActions('zoomOut')"></i>
+          <i class="gpzx-icon-zoom-in" @click="handleActions('zoomIn')"></i>
           <i class="gpzx-image-viewer__actions__divider"></i>
           <i :class="mode.icon" @click="toggleMode"></i>
           <i class="gpzx-image-viewer__actions__divider"></i>
-          <i class="el-icon-refresh-left" @click="handleActions('anticlocelise')"></i>
-          <i class="el-icon-refresh-right" @click="handleActions('clocelise')"></i>
+          <i class="gpzx-icon-refresh-left" @click="handleActions('anticlocelise')"></i>
+          <i class="gpzx-icon-refresh-right" @click="handleActions('clocelise')"></i>
         </div>
       </div>
       <!-- CANVAS -->
@@ -58,11 +58,11 @@ import { rafThrottle, isFirefox } from 'gpzx-ui/src/utils/util';
 const Mode = {
   CONTAIN: {
     name: 'contain',
-    icon: 'el-icon-full-screen'
+    icon: 'gpzx-icon-full-screen'
   },
   ORIGINAL: {
     name: 'original',
-    icon: 'el-icon-c-scale-to-original'
+    icon: 'gpzx-icon-c-scale-to-original'
   }
 };
 

@@ -117,7 +117,7 @@
   <gpzx-aside width="200px" style="background-color: rgb(238, 241, 246)" >
     <gpzx-menu :default-openeds="['1', '3']">
       <gpzx-submenu index="1">
-        <template slot="title"><i class="el-icon-message"></i>导航一</template>
+        <template slot="title"><i class="gpzx-icon-message"></i>导航一</template>
         <gpzx-menu-item-group>
           <template slot="title">分组一</template>
           <gpzx-menu-item index="1-1">选项1</gpzx-menu-item>
@@ -132,7 +132,7 @@
         </gpzx-submenu>
       </gpzx-submenu>
       <gpzx-submenu index="2">
-        <template slot="title"><i class="el-icon-menu"></i>导航二</template>
+        <template slot="title"><i class="gpzx-icon-menu"></i>导航二</template>
         <gpzx-menu-item-group>
           <template slot="title">分组一</template>
           <gpzx-menu-item index="2-1">选项1</gpzx-menu-item>
@@ -147,7 +147,7 @@
         </gpzx-submenu>
       </gpzx-submenu>
       <gpzx-submenu index="3">
-        <template slot="title"><i class="el-icon-setting"></i>导航三</template>
+        <template slot="title"><i class="gpzx-icon-setting"></i>导航三</template>
         <gpzx-menu-item-group>
           <template slot="title">分组一</template>
           <gpzx-menu-item index="3-1">选项1</gpzx-menu-item>
@@ -167,7 +167,7 @@
   <gpzx-container style="height: 499px;">
     <gpzx-header style="text-align: right; font-size: 12px">
       <gpzx-dropdown>
-        <i class="el-icon-setting" style="margin-right: 15px"></i>
+        <i class="gpzx-icon-setting" style="margin-right: 15px"></i>
         <gpzx-dropdown-menu slot="dropdown">
           <gpzx-dropdown-item>查看</gpzx-dropdown-item>
           <gpzx-dropdown-item>新增</gpzx-dropdown-item>

@@ -22,7 +22,7 @@
 :::demo 通过设置 `separator-class` 可使用相应的 `iconfont` 作为分隔符，注意这将使 `separator` 设置失效
 
 ```html
-<gpzx-breadcrumb separator-class="el-icon-arrow-right">
+<gpzx-breadcrumb separator-class="gpzx-icon-arrow-right">
   <gpzx-breadcrumb-item :to="{ path: '/' }">首页</gpzx-breadcrumb-item>
   <gpzx-breadcrumb-item>活动管理</gpzx-breadcrumb-item>
   <gpzx-breadcrumb-item>活动列表</gpzx-breadcrumb-item>
